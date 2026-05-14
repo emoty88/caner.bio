@@ -1,0 +1,82 @@
+{{- define "main" }}
+<div class="resume-page">
+  <div class="resume-actions no-print">
+    <button onclick="window.print()" class="resume-btn">🖨 Print / Save as PDF</button>
+  </div>
+
+  <article class="resume-content">
+    {{- .Content }}
+  </article>
+</div>
+
+<style>
+  .resume-page {
+    max-width: 860px;
+    margin: 0 auto;
+    padding: 2rem 1.5rem;
+  }
+
+  .resume-actions {
+    text-align: right;
+    margin-bottom: 1.5rem;
+  }
+
+  .resume-btn {
+    background: var(--theme);
+    color: var(--entry);
+    border: 1px solid var(--border);
+    padding: 0.4rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.9rem;
+  }
+
+  .resume-btn:hover {
+    opacity: 0.85;
+  }
+
+  .resume-content h1 {
+    font-size: 2rem;
+    margin-bottom: 0.25rem;
+  }
+
+  .resume-content h2 {
+    font-size: 1.2rem;
+    border-bottom: 2px solid var(--border);
+    padding-bottom: 0.3rem;
+    margin-top: 2rem;
+  }
+
+  .resume-content h3 {
+    font-size: 1rem;
+    margin-bottom: 0.1rem;
+  }
+
+  .resume-content table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1rem 0;
+    font-size: 0.9rem;
+  }
+
+  .resume-content table td {
+    padding: 0.35rem 0.5rem;
+    vertical-align: top;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .resume-content table td:first-child {
+    white-space: nowrap;
+    font-weight: 600;
+    width: 200px;
+  }
+
+  @media print {
+    .no-print { display: none !important; }
+    .resume-page { padding: 0; }
+    header, footer, nav, #top-link { display: none !important; }
+    body { background: white !important; color: black !important; }
+    a { color: black !important; }
+  }
+</style>
+{{- end }}
