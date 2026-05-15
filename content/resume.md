@@ -15,7 +15,7 @@ summary: "Caner Türkmen — Senior Software Engineer Resume"
 
 ## Professional Summary
 
-Senior Software Engineer with 10+ years of experience building scalable distributed systems and full-stack applications. Experienced across multiple ecosystems including Python, Django, and Java Spring Boot with a focus on microservices, event-driven architecture, and cloud-native systems. Proven ability to design and deliver production platforms supporting thousands of organizations and millions of users. Founder-engineer experienced in building AI-driven platforms using LangChain and LangGraph for intelligent automation and workflow orchestration.
+Senior Software Engineer with 10+ years of experience building scalable distributed systems and full-stack applications. Specializes in Python, Java, and TypeScript across microservices, event-driven architecture, and cloud-native systems — with production impact at scale, including a distributed time-off accrual engine serving ~353,000 worksite employees. Proven builder of internal tooling that drives cross-team adoption, from AI-powered MCP servers to developer productivity tools. Founder-engineer with hands-on experience designing AI pipelines using LangChain and LangGraph for intelligent automation and workflow orchestration.
 
 ---
 
@@ -29,7 +29,7 @@ Senior Software Engineer with 10+ years of experience building scalable distribu
 
 **Distributed Systems** Microservices, Kafka, Event-Driven Architecture, Asynchronous Processing
 
-**AI & Automation** LangChain, LangGraph, AI-assisted development workflows
+**AI & Automation** LangChain, LangGraph, MCP Server Development, AI-assisted development workflows
 
 **Cloud & DevOps** Docker, Kubernetes, AWS, Jenkins
 
@@ -45,15 +45,14 @@ Senior Software Engineer with 10+ years of experience building scalable distribu
 
 **TriNet — San Francisco Bay Area, CA** · _Apr 2024 – Present_
 
-- Develop backend services for a distributed **time-off accrual engine** used by thousands of companies and nearly one million employees.
-- Design microservices using **Java, Spring Boot, GraphQL, Kafka, and MySQL**.
-- Implement **event-driven processing pipelines** with Kafka consumers and producers for time-off and accrual events.
-- Maintain **scheduled processing jobs** responsible for periodic accrual calculations and system updates.
-- Contribute to **technical design documents (TDDs)** through system investigations and cross-team collaboration.
-- Own features end-to-end including design proposals, Jira planning, development, testing, and deployment.
-- Implement **unit and integration tests** to ensure reliability of distributed services.
-- Utilize **AI-assisted development workflows** to accelerate coding, testing, and engineering planning.
-- Designed and delivered an internal **Python & Django engineering course** used by teams building Python services.
+Built backend services for a distributed **time-off accrual engine** serving thousands of companies and ~353,000 worksite employees across the US.
+
+- Designed and implemented **event-driven accrual pipelines** using Kafka, Spring Boot, and GraphQL — processing time-off and accrual events at enterprise scale.
+- Built an internal **MCP server** for natural-language database investigation and stage-to-local data migration; led POC approval and distribution, with adoption by multiple engineering and product teams.
+- Developed a **Business User Verification test simulator** that replaced multi-step manual setup with a single UI — cutting scenario run time from ~10 minutes to under 1 minute, freeing 2+ engineers from 3-hour daily monitoring sessions, and unblocking a stalled test cycle caused by an external service outage.
+- Designed and delivered an internal **Python & Django engineering course** attended live by 40+ engineers, with recordings adopted across multiple teams.
+
+*Java · Spring Boot · GraphQL · Kafka · MySQL · Python · Django · MCP*
 
 ---
 
@@ -61,14 +60,13 @@ Senior Software Engineer with 10+ years of experience building scalable distribu
 
 **Yupana Inc — San Francisco Bay Area, CA** · _Jul 2014 – Jan 2023_
 
-- Developed telecom infrastructure automation platforms supporting **network provisioning, monitoring, and base station integration**.
-- Built scalable backend systems using **Python, Django, and PostgreSQL**.
-- Designed microservices and APIs to automate network infrastructure workflows.
-- Built frontend tools using **React and TypeScript** to improve operational efficiency.
-- Containerized applications using **Docker** and deployed to cloud environments.
-- Improved monitoring platform performance by **500%** through backend optimization and Redis caching.
-- Built **YuCube**, reducing base station integration time from **4 hours to under 40 minutes**.
-- Delivered data visualization tools that helped secure **Rogers Communications** as a telecom client.
+Built telecom infrastructure automation platforms for network operators over 9 years, progressing from Software Developer to Senior Software Engineer.
+
+- Architected and built the **YuCube cloud platform** powering an IoT device that automates cell site configuration, upgrades, and licensing — reducing base station integration time from **4 hours to under 40 minutes** per site, with offline backhaul support for field deployments.
+- Overhauled a daily-use **network monitoring tool** that degraded to query times measured in minutes under load — reduced response times by **500%** through backend optimization and Redis caching, directly increasing war room operational efficiency.
+- Led development of a **custom data platform for Rogers Communications** from requirements to MVP, converting them as a new telecom client and contributing to company growth.
+
+*Python · Django · PostgreSQL · React · TypeScript · Redis · Docker*
 
 ---
 
@@ -76,10 +74,12 @@ Senior Software Engineer with 10+ years of experience building scalable distribu
 
 **Medya A.Ş. — Istanbul, Turkey** · _2019_
 
-- Led backend and frontend engineering teams building web and mobile systems for a large beverage distribution network.
-- Designed backend architecture using **Python Django REST Framework**.
-- Managed development workflows using **Scrum methodology** and coordinated cross-team delivery.
-- Built a scalable distribution platform serving **millions of customers**.
+Led engineering teams to design and deliver a distribution platform for a large beverage network during a consulting engagement.
+
+- Architected and shipped a **multi-channel distribution platform**, leading backend and frontend teams from system design through launch.
+- Managed cross-functional delivery across backend, frontend, and mobile workstreams using Scrum methodology.
+
+*Python · Django REST Framework · React · React Native*
 
 ---
 
@@ -89,11 +89,13 @@ Senior Software Engineer with 10+ years of experience building scalable distribu
 
 _Founder & Lead Engineer_
 
-- Architected an AI-driven platform for **e-commerce returns management and resale automation**.
-- Built backend services using **Python, Django, DRF, Celery, and RabbitMQ**.
-- Designed AI pipelines using **LangChain and LangGraph** to automate product evaluation and pricing workflows.
-- Integrated **Amazon Seller APIs** to synchronize inventory and returns data.
-- Developed frontend interfaces using **React, Redux, and Material UI**.
+Built an AI-powered platform to automate Amazon returns management, product evaluation, and resale workflows end-to-end.
+
+- Designed **LangChain and LangGraph AI pipelines** to automate product condition evaluation and dynamic pricing decisions for returned inventory.
+- Built async processing infrastructure with **Celery and RabbitMQ** and integrated Amazon Seller APIs for real-time inventory and returns synchronization.
+- Developed a full-stack returns dashboard using **React, Redux, and Material UI**.
+
+*Python · Django · Celery · RabbitMQ · LangChain · LangGraph · React*
 
 ---
 
@@ -101,10 +103,11 @@ _Founder & Lead Engineer_
 
 _Founder & CTO_
 
-- Built a mobile social network platform focused on content popularity analytics.
-- Developed backend APIs using **Python Django REST Framework**.
-- Built the mobile application using **React Native**.
-- Secured **seed funding** from UK investors.
+Built and launched a mobile social network focused on content popularity analytics, securing seed funding from UK investors.
+
+- Architected REST APIs using **Django REST Framework** and built the cross-platform mobile app in **React Native**.
+
+*Python · Django REST Framework · React Native*
 
 ---
 
