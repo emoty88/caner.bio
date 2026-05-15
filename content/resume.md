@@ -9,35 +9,41 @@ summary: "Caner Türkmen — Senior Software Engineer Resume"
 
 **Senior Software Engineer**
 
-📍 San Francisco Bay Area, CA · ✉️ hello@caner.email · 💻 [github.com/emoty88](https://github.com/emoty88) · 🔗 [linkedin.com/in/canerturkmen](https://linkedin.com/in/canerturkmen)
+📍 San Francisco Bay Area, CA · ✉️ hello@caner.bio · 💻 [github.com/emoty88](https://github.com/emoty88) · 🔗 [linkedin.com/in/canerturkmen](https://linkedin.com/in/canerturkmen)
 
 ---
 
-## 🧑‍💻 Professional Summary
+## Professional Summary
 
 Senior Software Engineer with 10+ years of experience building scalable distributed systems and full-stack applications. Experienced across multiple ecosystems including Python, Django, and Java Spring Boot with a focus on microservices, event-driven architecture, and cloud-native systems. Proven ability to design and deliver production platforms supporting thousands of organizations and millions of users. Founder-engineer experienced in building AI-driven platforms using LangChain and LangGraph for intelligent automation and workflow orchestration.
 
 ---
 
-## 🛠 Technical Skills
+## Technical Skills
 
-| Area | Technologies |
-|---|---|
-| **Languages** | Python, Java, JavaScript, TypeScript |
-| **Backend & APIs** | Django, Django REST Framework, Spring Boot, GraphQL, REST APIs |
-| **Frontend** | React, Redux, Material UI, Angular |
-| **Distributed Systems** | Microservices, Kafka, Event-Driven Architecture, Async Processing |
-| **AI & Automation** | LangChain, LangGraph, AI-assisted development workflows |
-| **Cloud & DevOps** | Docker, Kubernetes, AWS, Jenkins |
-| **Databases** | PostgreSQL, MySQL, MongoDB, Elasticsearch, Redis |
-| **Testing** | Unit Testing, Integration Testing, Selenium, Puppeteer |
+**Languages** Python, Java, JavaScript, TypeScript
+
+**Backend & APIs** Django, Django REST Framework (DRF), Spring Boot, GraphQL, REST APIs
+
+**Frontend** React, Redux, Material UI, Angular
+
+**Distributed Systems** Microservices, Kafka, Event-Driven Architecture, Asynchronous Processing
+
+**AI & Automation** LangChain, LangGraph, AI-assisted development workflows
+
+**Cloud & DevOps** Docker, Kubernetes, AWS, Jenkins
+
+**Databases** PostgreSQL, MySQL, MongoDB, Elasticsearch, Redis
+
+**Testing** Unit Testing, Integration Testing, Selenium, Puppeteer
 
 ---
 
-## 💼 Professional Experience
+## Professional Experience
 
 ### Senior Software Engineer
-**TriNet — San Francisco Bay Area, CA** · *Apr 2024 – Present*
+
+**TriNet — San Francisco Bay Area, CA** · _Apr 2024 – Present_
 
 - Develop backend services for a distributed **time-off accrual engine** used by thousands of companies and nearly one million employees.
 - Design microservices using **Java, Spring Boot, GraphQL, Kafka, and MySQL**.
@@ -52,7 +58,8 @@ Senior Software Engineer with 10+ years of experience building scalable distribu
 ---
 
 ### Senior Software Engineer → Software Developer
-**Yupana Inc — San Francisco Bay Area, CA** · *Jul 2014 – Jan 2023*
+
+**Yupana Inc — San Francisco Bay Area, CA** · _Jul 2014 – Jan 2023_
 
 - Developed telecom infrastructure automation platforms supporting **network provisioning, monitoring, and base station integration**.
 - Built scalable backend systems using **Python, Django, and PostgreSQL**.
@@ -66,7 +73,8 @@ Senior Software Engineer with 10+ years of experience building scalable distribu
 ---
 
 ### Software Engineering Team Lead
-**Medya A.Ş. — Istanbul, Turkey** · *2019*
+
+**Medya A.Ş. — Istanbul, Turkey** · _2019_
 
 - Led backend and frontend engineering teams building web and mobile systems for a large beverage distribution network.
 - Designed backend architecture using **Python Django REST Framework**.
@@ -75,10 +83,11 @@ Senior Software Engineer with 10+ years of experience building scalable distribu
 
 ---
 
-## 🚀 Projects
+## Projects
 
 ### Reqora — AI-Driven Returns Management Platform
-*Founder & Lead Engineer*
+
+_Founder & Lead Engineer_
 
 - Architected an AI-driven platform for **e-commerce returns management and resale automation**.
 - Built backend services using **Python, Django, DRF, Celery, and RabbitMQ**.
@@ -89,7 +98,8 @@ Senior Software Engineer with 10+ years of experience building scalable distribu
 ---
 
 ### Popilicity — Social Media Platform
-*Founder & CTO*
+
+_Founder & CTO_
 
 - Built a mobile social network platform focused on content popularity analytics.
 - Developed backend APIs using **Python Django REST Framework**.
@@ -98,7 +108,7 @@ Senior Software Engineer with 10+ years of experience building scalable distribu
 
 ---
 
-## 🎓 Education
+## Education
 
 **AI & Machine Learning Certification** · California Institute of Technology
 

@@ -19,6 +19,6 @@ When I'm not engineering, I produce music. Probably not what you expected, but t
 
 ---
 
-📧 [hello@caner.email](mailto:hello@caner.email)
+📧 [hello@caner.bio](mailto:hello@caner.bio)
 🔗 [linkedin.com/in/canerturkmen](https://linkedin.com/in/canerturkmen)
 👾 [github.com/emoty88](https://github.com/emoty88)

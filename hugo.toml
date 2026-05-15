@@ -60,7 +60,7 @@ buildFuture = false
 
   [[params.socialIcons]]
     name = "email"
-    url = "mailto:hello@caner.email"
+    url = "mailto:hello@caner.bio"
 
   [[params.socialIcons]]
     name = "threads"
