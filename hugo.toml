@@ -1,0 +1,113 @@
+baseURL = "https://caner.bio/"
+languageCode = "en-us"
+title = "Caner Türkmen"
+theme = "PaperMod"
+[pagination]
+  pagerSize = 10
+enableRobotsTXT = true
+buildDrafts = false
+buildFuture = false
+
+[params]
+  author = "Caner Türkmen"
+  description = "Senior Software Engineer · San Francisco"
+  defaultTheme = "auto"
+  disableThemeToggle = false
+  ShowReadingTime = true
+  ShowShareButtons = false
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowWordCount = false
+  ShowRssButtonInSectionTermList = true
+  UseHugoToc = true
+  disableSpecial1stPost = false
+  disableScrollToTop = false
+  comments = false
+  hidemeta = false
+  hideSummary = false
+  showtoc = false
+  tocopen = false
+
+  [params.profileMode]
+    enabled = true
+    title = "Caner Türkmen"
+    subtitle = "Senior Software Engineer with 10+ years building scalable distributed systems. Currently at **TriNet**, designing microservices and event-driven architectures. Passionate about AI-driven automation, open source, and clean engineering."
+    imageUrl = "img/caner.jpg"
+    imageWidth = 120
+    imageHeight = 120
+    imageTitle = "Caner Türkmen"
+
+    [[params.profileMode.buttons]]
+      name = "Blog"
+      url = "/posts"
+
+    [[params.profileMode.buttons]]
+      name = "Projects"
+      url = "/projects"
+
+    [[params.profileMode.buttons]]
+      name = "Resume"
+      url = "/resume"
+
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/emoty88"
+
+  [[params.socialIcons]]
+    name = "linkedin"
+    url = "https://linkedin.com/in/canerturkmen"
+
+  [[params.socialIcons]]
+    name = "email"
+    url = "mailto:hello@caner.bio"
+
+  [[params.socialIcons]]
+    name = "threads"
+    url = "https://www.threads.net/@caner_turkmen"
+
+[menu]
+  [[menu.main]]
+    identifier = "blog"
+    name = "Blog"
+    url = "/posts/"
+    weight = 10
+
+  [[menu.main]]
+    identifier = "projects"
+    name = "Projects"
+    url = "/projects/"
+    weight = 20
+
+  [[menu.main]]
+    identifier = "resume"
+    name = "Resume"
+    url = "/resume/"
+    weight = 30
+
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 40
+
+  [[menu.main]]
+    identifier = "search"
+    name = "Search"
+    url = "/search/"
+    weight = 50
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.highlight]
+    noClasses = false
+    anchorLineNos = true
+    codeFences = true
+    guessSyntax = true
+    lineNos = true
+    style = "monokai"
